@@ -70,9 +70,9 @@ const sessionOptions = {
 };
 
 
-// app.get("/", (req, res) => {
-//   res.send("workingggg");
-// });
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
 
 
 app.use(session(sessionOptions));
@@ -94,7 +94,7 @@ app.use("/listings",listingRouter);
 app.use("/listings/:id/reviews",reviewRouter);
 app.use("/",userRouter);
 // app.all("*", (req, res, next) => {
-//     next(new ExpressError(404, "Page Not Found"));
+//     return next(new ExpressError(404, "Page Not Found"));
 // });
 
 app.use((err, req, res, next) => {
