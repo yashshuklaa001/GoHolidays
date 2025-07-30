@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 This Project is Depolyed on Render .
-You can access it via this Link : https://goholidays-dwu7.onrender.com 
+You can access it via this Link : https://goholidays-dwu7.onrender.com
 
 ---
 
@@ -55,46 +55,42 @@ You can access it via this Link : https://goholidays-dwu7.onrender.com
 ```bash
 git clone https://github.com/yashshuklaa001/GoHolidays.git
 cd GoHolidays
-
+```
 2. **Install Dependices**
+```bash
 npm install
-
+```
 3. **Configure environment variables**
 
-- Create a .env file in the root with the following:
-ATLASDB_URL=your_mongodb_atlas_url
-SECRET=your_session_secret
-CLOUD_NAME=your_cloud_name
-CLOUD_API_KEY=your_key
-CLOUD_API_SECRET=your_secret
-MAP_TOKEN=your_mapbox_token
+## Create a .env file in the root with the following:
 
-4. Run The App
+- ATLASDB_URL=your_mongodb_atlas_url
+- SECRET=your_session_secret
+- CLOUD_NAME=your_cloud_name
+- CLOUD_API_KEY=your_key
+- CLOUD_API_SECRET=your_secret
+- MAP_TOKEN=your_mapbox_token
 
+4. **Run The App**
+```bash
 npm start
-
+```
 ## 🧪 Usage
-Register as a new user.
-
-Add listings with images, description, and location.
-
-Browse listings on map and detail view.
-
-Add/edit/delete your listings and reviews.
+- Register as a new user.
+- Add listings with images, description, and location.
+- Browse listings on map and detail view.
+- Add/edit/delete your listings and reviews.
 
 ## 🛡️ Security & Error Handling
-All routes protected with middleware (isLoggedIn, isOwner).
-
-ExpressError utility for custom error messages.
-
-Flash messages for success/failure feedback.
+- All routes protected with middleware (isLoggedIn, isOwner).
+- ExpressError utility for custom error messages.
+- Flash messages for success/failure feedback.
 
  ## ☁️ Deployment Notes
-Hosted on Render (or platform of choice).
+- Hosted on Render.
+- MongoDB Atlas used for cloud database.
+- Store all secrets in Render environment variables for production.
 
-MongoDB Atlas used for cloud database.
-
-Store all secrets in Render environment variables for production.
-
-##👨‍💻 Author
-Yash Shukla
+## 👨‍💻 Author
+name - Yash Shukla
+email - yashshukla18jul@gmail.com
