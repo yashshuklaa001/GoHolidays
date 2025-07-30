@@ -49,6 +49,8 @@ You can access it via this Link : https://goholidays-dwu7.onrender.com
 - ├── .env # Environment configuration
 - ├── package.json # NPM dependencies
 
+---
+
 ## 📦 Installation
 
 1. **Clone the repository**
@@ -56,10 +58,14 @@ You can access it via this Link : https://goholidays-dwu7.onrender.com
 git clone https://github.com/yashshuklaa001/GoHolidays.git
 cd GoHolidays
 ```
+---
+
 2. **Install Dependices**
 ```bash
 npm install
 ```
+---
+
 3. **Configure environment variables**
 
 ## Create a .env file in the root with the following:
@@ -71,25 +77,39 @@ npm install
 - CLOUD_API_SECRET=your_secret
 - MAP_TOKEN=your_mapbox_token
 
+---
+
 4. **Run The App**
 ```bash
 npm start
 ```
+---
+
+Visit http://localhost:3000 in your browser.
+
+---
+
 ## 🧪 Usage
 - Register as a new user.
 - Add listings with images, description, and location.
 - Browse listings on map and detail view.
 - Add/edit/delete your listings and reviews.
 
+---
+
 ## 🛡️ Security & Error Handling
 - All routes protected with middleware (isLoggedIn, isOwner).
 - ExpressError utility for custom error messages.
 - Flash messages for success/failure feedback.
 
+---
+
  ## ☁️ Deployment Notes
 - Hosted on Render.
 - MongoDB Atlas used for cloud database.
 - Store all secrets in Render environment variables for production.
+
+---
 
 ## 👨‍💻 Author
 name - Yash Shukla
